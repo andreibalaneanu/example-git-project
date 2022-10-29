@@ -13,7 +13,7 @@ public class Homepage {
 
     @GetMapping("/second-page")
     public String secondPAge(){
-        return "WElcome to my app";
+        return "Welcome to my second page";
     }
     
 }
