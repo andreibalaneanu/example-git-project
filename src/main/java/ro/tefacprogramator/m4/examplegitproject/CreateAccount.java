@@ -10,4 +10,9 @@ public class CreateAccount {
     public String createAccount(){
         return "Create aacount";
     }
+
+    @GetMapping("/delete-account")
+    public String deleteAccount(){
+        return "Delete Account";
+    }
 }
